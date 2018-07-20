@@ -4,12 +4,12 @@
   <description>
     Topological map construction for strands
   </description>
-  <maintainer email="staniasm@cs.bham.ac.uk">Michal Staniaszek</maintainer>
   <license>BSD</license>
 
-  <author>Michal Staniaszek</author>
+  <author email="staniasm@cs.bham.ac.uk">Michal Staniaszek</author>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <maintainer email="marc@hanheide.net">Marc Hanheide</maintainer>
 
   <build_depend>qtbase5-dev</build_depend>
   <build_depend>message_generation</build_depend>

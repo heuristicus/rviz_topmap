@@ -92,3 +92,10 @@ install(TARGETS
 install(FILES
   plugin_description.xml
   DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+
+## Mark other files for installation (e.g. launch and bag files, etc.)
+foreach (dir launch conf images)
+    install(DIRECTORY ${dir}/
+    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
+endforeach(dir)
+
